@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500&family=Fredoka:wght@300;400;500&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.container>* {
+    box-shadow: #48556a;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 15px;
+}
+
+h5 {
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+h6 {
+    padding-bottom: 2px;
+    font-size: 11px;
+}
+
+.person_detail {
+    margin-top: -11px;
+    font-size: 0.5rem;
+}
+
+p {
+    font-size: 13px;
+}
+
+.inner-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal {
+    padding: 0 0 0 10px;
+}
+
+.identities {
+    display: flex;
+}
+
+.container {
+    margin-top: 6rem;
+    padding: 2rem;
+    background-color: #ecf2e8;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.one {
+    /* Combining 2columns*/
+    grid-column: span 2;
+    background-color: #7541c8;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.two {
+    background-color: #48556a;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.three:nth-child(3) {
+    background-color: #ffffff;
+    border-radius: 6px;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.four {
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+.five {
+    grid-column: span 2;
+    background-color: #19212e;
+    color: #fff;
+}
